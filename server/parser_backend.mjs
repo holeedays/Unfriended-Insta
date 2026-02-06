@@ -45,8 +45,12 @@ var stillMutualsDisplay = ``;
 // variables to hold our browser object and page object when we use puppeteer
 var browser, page;
 
-const rootDir = `C:/Users/weigh/Dropbox/Instagram Data Parser/Unfriended-Insta`;
+
+
+// const rootDir = `C:/Users/weigh/Dropbox/Instagram Data Parser/Unfriended-Insta`;
+const rootDir = getRootPath();
 dotenv.config({path: `./protectedVariables.env`});
+
 
 // const ews = expressWs(express());
 const app = express();
@@ -65,6 +69,23 @@ app.use(express.static(path.join(rootDir, `client/public`)));
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
 });
+
+
+function getRootPath() {
+
+    var rootFolderPath = "";
+
+    const thisPath = import.meta.dirname;
+    thisPath.split(`/`).forEach((str, index, array) => {
+        if (index < array.length - 1)
+            rootFolderPath += `${str}/`;
+    });
+
+    return rootFolderPath;
+}
+
+
+
 
 // express router logic here
 
