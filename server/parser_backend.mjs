@@ -24,6 +24,7 @@ import {
 } from "./infoContainers.mjs"
 
 import { arch, userInfo } from "os";
+import { get } from "http";
 
 // bool to determine if person put their login info or not
 var userPutInInfo = false;
@@ -48,7 +49,7 @@ var browser, page;
 
 
 // const rootDir = `C:/Users/weigh/Dropbox/Instagram Data Parser/Unfriended-Insta`;
-const rootDir = getRootPath();
+const rootDir = path.dirname(import.meta.dirname);
 dotenv.config({path: `./protectedVariables.env`});
 
 
@@ -69,21 +70,6 @@ app.use(express.static(path.join(rootDir, `client/public`)));
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
 });
-
-
-function getRootPath() {
-
-    var rootFolderPath = "";
-
-    const thisPath = import.meta.dirname;
-    thisPath.split(`/`).forEach((str, index, array) => {
-        if (index < array.length - 1)
-            rootFolderPath += `${str}/`;
-    });
-
-    return rootFolderPath;
-}
-
 
 
 
