@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=0, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="/styles.css" rel="stylesheet" type="text/css"">
+</head>
+<body>
+
+    <div class="pageHeader">
+        Welcome to <%= title %>
+    <div>
+
+    <div class="subHeader">
+        Please upload the file below.
+    <div>
+
+    <div class="userPrompt">
+        <%= fileUploadPrompt %>
+    </div>
+
+    <form method="post" action="upload" enctype="multipart/form-data" class="submissionBody">
+    
+        <div class="input">
+            <label for="Reference File Upload"> Upload File Here </label>
+            <input type="file" name="Reference File" id="Reference File Upload">
+        </div>
+
+        <div class="input">
+            <label for="Submission"> Confirm Submission Here </label>
+            <input type='submit' name="File Submission" id="Submission">
+        </div>
+
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="/styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+     <div>
+
+        <div class = "pageHeader"> 
+            Results 
+        </div>
+
+        <div class = "subHeader"> 
+            Here's all the data compiled.
+        </div>
+
+    </div>
+
+
+    <div class="resultsListsContainer">
+
+        <div class="resultsListCompiled">
+
+            <div class="resultsListHeader">
+                Still Mutuals/Friends
+            </div>
+
+            <div class="divider"></div>
+
+            <div>
+                <%= stillMutualsDisplay %>
+            </div>
+
+        </div>
+
+        <div class="resultsListCompiled">
+
+            <div class="resultsListHeader">
+                Mutuals Who Unfollowed You
+            </div>
+
+            <div class="divider"></div>
+
+            <div>
+                <%= mutualsUnfollowedYouDisplay %>
+            </div>
+
+        </div>
+
+        <div class="resultsListCompiled">
+
+            <div class="resultsListHeader">
+                Mutuals Who You No Longer Follow / Were Removed 
+            </div>
+
+            <div class="divider"></div>
+
+            <div>
+                <%= mutualsYouUnfollowedDisplay %>
+            </div>
+
+        </div>
+
+        <div class="resultsListCompiled">
+
+            <div class="resultsListHeader">
+                Private Accounts - Indeterminate
+            </div>
+
+            <div class="divider"></div>
+
+            <div>
+                <%= indeterminateDisplay %>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

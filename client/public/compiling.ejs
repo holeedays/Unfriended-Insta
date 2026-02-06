@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="/styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    
+    <div>
+
+        <div class = "pageHeader"> 
+            We're currently checking the web for your followers... 
+        </div>
+
+        <div class = "subHeader"> 
+            If you have logged in your information, please check for dual factor authentication and verify it.
+            The data may take a while (~4-5 mins per 100 profiles) so please feel free do something else or check the app below.
+            We do recommend not running anything too intensive in the background as this may cause the app to crash (you'll see the loading icon stop loading).   
+            You'll be alerted in the browser when we're done.
+        </div>
+
+    </div>
+
+
+    <div class="resultsListsContainer">
+
+        <div class="resultsListCompiling">
+
+            <div class="resultsListHeader">
+                Mutuals/Friends (Both follow each other)
+            </div>
+
+            <div class="divider"></div>
+
+            <div>
+                <%= mutualsDisplay %>
+            </div>
+
+        </div>
+
+         <div class="resultsListCompiling">
+
+            <div class="resultsListHeader">
+                Followers (Non-Mutuals)
+            </div>
+
+            <div class="divider"></div>
+
+            <div>
+                <%= nonMutualFollowersDisplay %>
+            </div>
+
+        </div>
+
+         <div class="resultsListCompiling">
+
+            <div class="resultsListHeader">
+                Following (Non-Mutuals)
+            </div>
+
+            <div class="divider"></div>
+
+            <div>
+                <%= nonMutualFollowingDisplay %>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>

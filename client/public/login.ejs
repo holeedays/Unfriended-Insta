@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="/styles.css" rel="stylesheet" type="text/css"">
+</head>
+<body>
+
+    <div class="pageHeader">
+        Login
+    <div>
+
+    <div>
+        <div class="description">
+
+            Due to the nature of private accounts on instagram, if you want the most accurate recount of 
+            whether people unfriended you or not, it is suggested to input your login info.
+
+            However, you're not obligated to. In the case you don't submit anything (just press submit to continue),
+            we will use a dummy account to check.
+
+            If your account has 2 factor authentication and you intend to submit your info, please check your email 
+            for the code upon login submission.
+        </div>
+
+        <div class="userPrompt">
+            <%= loginPrompt %>
+        </div>
+        
+        <form method="post" action="user_login" enctype="multipart/form-data" class="submissionBody">
+
+            <div class="input">
+                <label for="Login:Username"> Username </label>
+                <input type="text" name="Username Input" id="Login:Username">
+            </div>
+
+            <div class="input">
+                <label for="Login:Password"> Password </label>
+                <input type="password" name="Password Input" id="Login:Password">
+            </div>
+    
+            <div class="input">
+                <label for="Submission"> Confirm Submission Here </label>
+                <input type='submit' name="Login Submission" id="Submission">
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
