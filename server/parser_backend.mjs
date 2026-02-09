@@ -113,6 +113,10 @@ app.get(`/login`, async (req, res) => {
 // intermediate page, 
 app.get(`/login/loading`, async (req, res) => {
 
+    // if browser and page are alr assigned to a value (i.e. person goes back, remove the obj)
+    if (browser && page)
+        await terminateVirtualBrowserObjs();
+
     [browser, page] = await setupVirtualBrowserObjs();
 
     await loginToInstagram(page);
@@ -683,5 +687,5 @@ async function checkFollowersTab(pageObj, mutualsList, mutual) {
 
 async function terminateVirtualBrowserObjs(browserObj) {
 
-    browserObj.close();
+    await browserObj.close();
 }
