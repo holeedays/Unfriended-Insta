@@ -1,0 +1,67 @@
+{
+  "participants": [
+    {
+      "name": "Cordelia \u00f0\u009f\u0092\u008c Gallagher"
+    },
+    {
+      "name": "NICKTTTTTTTTTTTTTTTTTTTTTTTT"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "Cordelia \u00f0\u009f\u0092\u008c Gallagher",
+      "timestamp_ms": 1752368968714,
+      "content": "Lmk when u leave",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Cordelia \u00f0\u009f\u0092\u008c Gallagher",
+      "timestamp_ms": 1752368962335,
+      "content": "No",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "NICKTTTTTTTTTTTTTTTTTTTTTTTT",
+      "timestamp_ms": 1752367358588,
+      "content": "Hey we just got dinner, is it to late to come after",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Cordelia \u00f0\u009f\u0092\u008c Gallagher",
+      "timestamp_ms": 1739753969926,
+      "content": "\u00f0\u009f\u00ab\u00b6",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "NICKTTTTTTTTTTTTTTTTTTTTTTTT",
+      "timestamp_ms": 1739753958546,
+      "content": "Check ur text",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "NICKTTTTTTTTTTTTTTTTTTTTTTTT",
+      "timestamp_ms": 1739753948466,
+      "content": "Yes",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Cordelia \u00f0\u009f\u0092\u008c Gallagher",
+      "timestamp_ms": 1739745491987,
+      "content": "Is your girl going to see me tonight",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    }
+  ],
+  "title": "Cordelia \u00f0\u009f\u0092\u008c Gallagher",
+  "is_still_participant": true,
+  "thread_path": "inbox/cordeliagallagher_1466858334713264",
+  "magic_words": [
+    
+  ]
+}

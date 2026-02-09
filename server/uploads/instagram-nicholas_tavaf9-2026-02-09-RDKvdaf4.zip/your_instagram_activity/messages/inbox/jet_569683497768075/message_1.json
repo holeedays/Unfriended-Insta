@@ -1,0 +1,38 @@
+{
+  "participants": [
+    {
+      "name": "jet"
+    },
+    {
+      "name": "NICKTTTTTTTTTTTTTTTTTTTTTTTT"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "jet",
+      "timestamp_ms": 1740891725174,
+      "content": "Liked a message",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "NICKTTTTTTTTTTTTTTTTTTTTTTTT",
+      "timestamp_ms": 1740878644050,
+      "content": "Ah not don't go calling us weed smoking bums now",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "jet"
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    }
+  ],
+  "title": "jet",
+  "is_still_participant": true,
+  "thread_path": "inbox/jet_569683497768075",
+  "magic_words": [
+    
+  ]
+}

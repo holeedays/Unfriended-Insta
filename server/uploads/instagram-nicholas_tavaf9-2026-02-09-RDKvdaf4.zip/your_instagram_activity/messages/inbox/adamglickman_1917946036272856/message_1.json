@@ -1,0 +1,39 @@
+{
+  "participants": [
+    {
+      "name": "Adam Glickman"
+    },
+    {
+      "name": "NICKTTTTTTTTTTTTTTTTTTTTTTTT"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "Adam Glickman",
+      "timestamp_ms": 1767992248357,
+      "content": "Sick!! I\u00e2\u0080\u0099ll be at the silverlake store on hyperion on saturday and sunday",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "NICKTTTTTTTTTTTTTTTTTTTTTTTT",
+      "timestamp_ms": 1767988510994,
+      "content": "Yo I definitely will, got a couple more days before I go back to school so I'll swing by sometime this weekend",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Adam Glickman",
+      "timestamp_ms": 1767987813724,
+      "content": "Yo yo. Happy new year!! When you came by the store last time, i remember i told you about the LWC x Man tle collab \u00e2\u0080\u0094 we got it in store now if you want to come by and scope it out!",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    }
+  ],
+  "title": "Adam Glickman",
+  "is_still_participant": true,
+  "thread_path": "inbox/adamglickman_1917946036272856",
+  "magic_words": [
+    
+  ]
+}

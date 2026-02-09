@@ -1,0 +1,50 @@
+{
+  "timestamp": 1756930620,
+  "media": [
+    
+  ],
+  "label_values": [
+    {
+      "label": "Request completion time",
+      "timestamp_value": 1756975306
+    },
+    {
+      "label": "How many times did you try to download the file?",
+      "value": "0"
+    },
+    {
+      "label": "Start date",
+      "timestamp_value": 1725394619
+    },
+    {
+      "label": "End date",
+      "timestamp_value": 1756930619
+    },
+    {
+      "label": "Information types",
+      "vec": [
+        
+      ]
+    },
+    {
+      "label": "Media quality",
+      "value": "Medium"
+    },
+    {
+      "label": "Output format",
+      "value": "HTML"
+    },
+    {
+      "label": "Have you seen this archive?",
+      "value": "False"
+    },
+    {
+      "label": "Have we notified you that your request is taking a long time to process?",
+      "value": "False"
+    },
+    {
+      "label": "Where you requested your data from"
+    }
+  ],
+  "fbid": "628799306690944"
+}

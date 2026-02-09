@@ -59,11 +59,17 @@
 
     padding: 5px 0 0 0;
 
-    font-size: 20px;
+    font-size: 25px;
     font-weight: lighter;
     font-style: italic;
 
-    color: rgb(161, 161, 161);
+    color: rgb(109, 109, 109);
+}
+
+.instructions {
+
+    font-size: 20px;
+    color:rgb(139, 139, 139)
 }
 
 .submissionBody {
