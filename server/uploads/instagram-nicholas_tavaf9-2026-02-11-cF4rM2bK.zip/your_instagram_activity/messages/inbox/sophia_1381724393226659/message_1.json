@@ -1,0 +1,28 @@
+{
+  "participants": [
+    {
+      "name": "Sophia"
+    },
+    {
+      "name": "NICKTTTTTTTTTTTTTTTTTTTTTTTT"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "Sophia",
+      "timestamp_ms": 1748991721284,
+      "content": "\u00f0\u009f\u0094\u00a5",
+      "share": {
+        "link": "https://www.instagram.com/stories/nicholas_tavaf9/3647121826574145193"
+      },
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    }
+  ],
+  "title": "Sophia",
+  "is_still_participant": true,
+  "thread_path": "inbox/sophia_1381724393226659",
+  "magic_words": [
+    
+  ]
+}

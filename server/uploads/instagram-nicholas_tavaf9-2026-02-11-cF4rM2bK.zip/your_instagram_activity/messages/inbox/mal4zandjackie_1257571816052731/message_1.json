@@ -1,0 +1,277 @@
+{
+  "participants": [
+    {
+      "name": "mal4z"
+    },
+    {
+      "name": "NICKTTTTTTTTTTTTTTTTTTTTTTTT"
+    },
+    {
+      "name": "Jackie"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "mal4z",
+      "timestamp_ms": 1764865471095,
+      "content": "mal4z liked a message",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Jackie",
+      "timestamp_ms": 1764865173653,
+      "content": "Just sent them",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Jackie",
+      "timestamp_ms": 1764864877513,
+      "content": "wait ima send it on texts so I can just ss it",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Jackie",
+      "timestamp_ms": 1764864853254,
+      "content": "One sec I\u00e2\u0080\u0099ll send what I have",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "NICKTTTTTTTTTTTTTTTTTTTTTTTT",
+      "timestamp_ms": 1764864738874,
+      "content": "Ima like figure it out during class",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "mal4z"
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "NICKTTTTTTTTTTTTTTTTTTTTTTTT",
+      "timestamp_ms": 1764864728746,
+      "content": "Idk I don't have anything",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "mal4z",
+      "timestamp_ms": 1764864632409,
+      "content": "i\u00e2\u0080\u0099m so stressed idk what to present and i didn\u00e2\u0080\u0099t do the poster cause her instructions are so confusing",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "mal4z",
+      "timestamp_ms": 1764864615673,
+      "content": "what\u00e2\u0080\u0099re u guys bringing to class",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Jackie",
+      "timestamp_ms": 1760587783436,
+      "content": "What r u guys doing for the studio homework tomorrow?",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Jackie",
+      "timestamp_ms": 1757566354111,
+      "content": "No yeah like if an entire class is confused you can\u00e2\u0080\u0099t be mad",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "mal4z"
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "NICKTTTTTTTTTTTTTTTTTTTTTTTT",
+      "timestamp_ms": 1757565956552,
+      "content": "But like I hope she nice about this cause we had like one day with clear instructions",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "NICKTTTTTTTTTTTTTTTTTTTTTTTT",
+      "timestamp_ms": 1757565926183,
+      "content": "Ima try and do it before class",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Jackie",
+      "timestamp_ms": 1757565912605,
+      "content": "I have no idea, I uploaded what I ended up doing but I don\u00e2\u0080\u0099t even think that\u00e2\u0080\u0099s right",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "NICKTTTTTTTTTTTTTTTTTTTTTTTT",
+      "timestamp_ms": 1757565895524,
+      "content": "Why didn't she ever explain in class",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "mal4z",
+      "timestamp_ms": 1757565882528,
+      "content": "ik im so confused i just did what she originally told us to do",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "NICKTTTTTTTTTTTTTTTTTTTTTTTT",
+      "timestamp_ms": 1757563750496,
+      "content": "I know it's actually ridiculous",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Jackie",
+      "timestamp_ms": 1757563534223,
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Jackie",
+      "timestamp_ms": 1757563488971,
+      "content": "I\u00e2\u0080\u0099m not doing that shit by tomorrow",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Jackie",
+      "timestamp_ms": 1757563483934,
+      "content": "It\u00e2\u0080\u0099s a completely different prompt",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Jackie",
+      "timestamp_ms": 1757563473060,
+      "content": "Binna is actually going to drive me crazy did you guys see her email?",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Jackie",
+      "timestamp_ms": 1757447528948,
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Jackie",
+      "timestamp_ms": 1757447523696,
+      "content": "This is what I asked",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Jackie",
+      "timestamp_ms": 1757447511931,
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Jackie",
+      "timestamp_ms": 1757447496895,
+      "content": "Look",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Jackie",
+      "timestamp_ms": 1757447495868,
+      "content": "No like that\u00e2\u0080\u0099s all she said to me",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "NICKTTTTTTTTTTTTTTTTTTTTTTTT",
+      "timestamp_ms": 1757447279282,
+      "content": "Lmk what she says cause im also like confused about what we need to do",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Jackie",
+      "timestamp_ms": 1757447247676,
+      "content": "I sent her an email cuz I was confused and she said she updated the assignment to make it more clear but maybe I\u00e2\u0080\u0099m just being stupid",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Jackie",
+      "timestamp_ms": 1757447199138,
+      "content": "Wait we only do one sketch?",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "NICKTTTTTTTTTTTTTTTTTTTTTTTT",
+      "timestamp_ms": 1757447152018,
+      "content": "Seems like it's just like picking a sketch and making it more specific for the systems of a systems assignment number 1",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "NICKTTTTTTTTTTTTTTTTTTTTTTTT",
+      "timestamp_ms": 1757447109930,
+      "content": "Yah same I was planning on doing that shit tomorrow",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Jackie",
+      "timestamp_ms": 1757447083790,
+      "photos": [
+        {
+          "uri": "your_instagram_activity/messages/inbox/mal4zandjackie_1257571816052731/photos/2387354704992876.png",
+          "creation_timestamp": 1757447083
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Jackie",
+      "timestamp_ms": 1757447083573,
+      "content": "Ah Alr",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "mal4z",
+      "timestamp_ms": 1757446946057,
+      "content": "i honestly have no clue i haven\u00e2\u0080\u0099t started it yet \u00f0\u009f\u0098\u0095",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Jackie",
+      "timestamp_ms": 1757446467468,
+      "content": "Do you guys understand the homework for studio tomorrow? Like are we supposed to sketch out our data in ways that someone could interact with it on a website?",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    }
+  ],
+  "title": "mal4z and Jackie",
+  "is_still_participant": true,
+  "thread_path": "inbox/mal4zandjackie_1257571816052731",
+  "magic_words": [
+    
+  ],
+  "joinable_mode": {
+    "mode": 2,
+    "link": "https://ig.me/j/AbbTkhJ_G5zgD8X_/"
+  }
+}

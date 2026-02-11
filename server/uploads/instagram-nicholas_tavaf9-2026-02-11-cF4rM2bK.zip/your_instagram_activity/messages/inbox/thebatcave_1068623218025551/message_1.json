@@ -1,0 +1,32 @@
+{
+  "participants": [
+    {
+      "name": "The Bat Cave"
+    },
+    {
+      "name": "NICKTTTTTTTTTTTTTTTTTTTTTTTT"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "The Bat Cave",
+      "timestamp_ms": 1741190797696,
+      "content": "Gone but never forgotten",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "NICKTTTTTTTTTTTTTTTTTTTTTTTT",
+      "timestamp_ms": 1741190500109,
+      "content": "I miss u more \u00f0\u009f\u0095\u008a\u00ef\u00b8\u008f\u00f0\u009f\u0091\u00bc\u00f0\u009f\u008f\u00bb",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    }
+  ],
+  "title": "The Bat Cave",
+  "is_still_participant": true,
+  "thread_path": "inbox/thebatcave_1068623218025551",
+  "magic_words": [
+    
+  ]
+}

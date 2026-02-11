@@ -1,0 +1,58 @@
+{
+  "participants": [
+    {
+      "name": "BERLINC"
+    },
+    {
+      "name": "NICKTTTTTTTTTTTTTTTTTTTTTTTT"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "BERLINC",
+      "timestamp_ms": 1750831413223,
+      "content": "Yup it will be emailed to you as soon as the package goes out",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "NICKTTTTTTTTTTTTTTTTTTTTTTTT",
+      "timestamp_ms": 1750828430138,
+      "content": "Could I get a shipping number or tracking number",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "BERLINC",
+      "timestamp_ms": 1747680494514,
+      "content": "Hey! Thanks so much for ordering the whole collection is still undergoing production and all items are scheduled to be shipped out around late June-early July",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "NICKTTTTTTTTTTTTTTTTTTTTTTTT",
+      "timestamp_ms": 1747581016353,
+      "photos": [
+        {
+          "uri": "your_instagram_activity/messages/inbox/berlinc_1706541677411594/photos/2171817639930783.jpg",
+          "creation_timestamp": 1747581015
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "NICKTTTTTTTTTTTTTTTTTTTTTTTT",
+      "timestamp_ms": 1747580982641,
+      "content": "Hey I ordered Jean from you guys and haven't gotten any updates",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    }
+  ],
+  "title": "BERLINC",
+  "is_still_participant": true,
+  "thread_path": "inbox/berlinc_1706541677411594",
+  "magic_words": [
+    
+  ]
+}

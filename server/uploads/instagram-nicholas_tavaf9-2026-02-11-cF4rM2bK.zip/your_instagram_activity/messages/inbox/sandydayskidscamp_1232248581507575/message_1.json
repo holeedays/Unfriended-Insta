@@ -1,0 +1,42 @@
+{
+  "participants": [
+    {
+      "name": "Sandy Days Kids Camp"
+    },
+    {
+      "name": "NICKTTTTTTTTTTTTTTTTTTTTTTTT"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "Sandy Days Kids Camp",
+      "timestamp_ms": 1750980528774,
+      "content": "Nice",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "NICKTTTTTTTTTTTTTTTTTTTTTTTT",
+      "timestamp_ms": 1750980276316,
+      "content": "Yup",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Sandy Days Kids Camp",
+      "timestamp_ms": 1750980252555,
+      "content": "Paradise cove?",
+      "share": {
+        "link": "https://www.instagram.com/stories/nicholas_tavaf9/3663752968253363355"
+      },
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    }
+  ],
+  "title": "Sandy Days Kids Camp",
+  "is_still_participant": true,
+  "thread_path": "inbox/sandydayskidscamp_1232248581507575",
+  "magic_words": [
+    
+  ]
+}
