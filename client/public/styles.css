@@ -52,19 +52,23 @@
 
 body {
 
-    background-image: url("Grass.png");
+    background-image: url("Page1R.png");
     background-repeat: no-repeat; 
-    background-position: center -5px; 
-    background-size: cover;
+    background-position: center -50px; 
+    background-size: 100% 115%;
+ 
+
     
    
 }
 
 .pageHeader {
-
+    
     font-size: 75px;
     font-weight: bold;
 }
+
+
 
 .subHeader {
 
@@ -78,9 +82,7 @@ body {
 }
 
 .instructions {
-
-    font-size: 20px;
-    color:rgb(139, 139, 139)
+    visibility: hidden;
 }
 
 .submissionBody {
