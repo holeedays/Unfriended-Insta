@@ -1,0 +1,38 @@
+{
+  "media": [
+    
+  ],
+  "label_values": [
+    {
+      "label": "Locations of interest",
+      "vec": [
+        {
+          "value": "South Lake Tahoe, California"
+        },
+        {
+          "value": "Malibu, California"
+        },
+        {
+          "value": "Los Angeles, California"
+        },
+        {
+          "value": "New York, New York"
+        },
+        {
+          "value": "California"
+        },
+        {
+          "value": "Nevada"
+        },
+        {
+          "value": "New York"
+        }
+      ]
+    },
+    {
+      "label": "Usage explanation",
+      "value": "Locations of interest are used to personalize your experience on Instagram and show you more relevant ads. Learn more about how Instagram uses location in Privacy Center."
+    }
+  ],
+  "fbid": "17841400735560453"
+}

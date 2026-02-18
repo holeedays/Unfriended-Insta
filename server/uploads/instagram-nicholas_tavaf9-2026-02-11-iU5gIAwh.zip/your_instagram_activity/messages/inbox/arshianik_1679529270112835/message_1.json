@@ -1,0 +1,41 @@
+{
+  "participants": [
+    {
+      "name": "Arshia Nik"
+    },
+    {
+      "name": "NICKTTTTTTTTTTTTTTTTTTTTTTTT"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "NICKTTTTTTTTTTTTTTTTTTTTTTTT",
+      "timestamp_ms": 1744682089108,
+      "content": "Thank you",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Arshia Nik",
+      "timestamp_ms": 1744674346580,
+      "content": "Sooo cute!",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "NICKTTTTTTTTTTTTTTTTTTTTTTTT"
+        }
+      ],
+      "share": {
+        "link": "https://www.instagram.com/stories/nicholas_tavaf9/3610907896947435393"
+      },
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    }
+  ],
+  "title": "Arshia Nik",
+  "is_still_participant": true,
+  "thread_path": "inbox/arshianik_1679529270112835",
+  "magic_words": [
+    
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "participants": [
+    {
+      "name": "Head Up Custom Studios"
+    },
+    {
+      "name": "NICKTTTTTTTTTTTTTTTTTTTTTTTT"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "Head Up Custom Studios",
+      "timestamp_ms": 1752284186404,
+      "content": "Hi. No. Sorry, I only sculpted heads.",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "NICKTTTTTTTTTTTTTTTTTTTTTTTT",
+      "timestamp_ms": 1752281548551,
+      "content": "Hey I was curious if you would still be willing to make Mafex night wing accessories",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    }
+  ],
+  "title": "Head Up Custom Studios",
+  "is_still_participant": true,
+  "thread_path": "inbox/headupcustomstudios_1751726256226469",
+  "magic_words": [
+    
+  ]
+}

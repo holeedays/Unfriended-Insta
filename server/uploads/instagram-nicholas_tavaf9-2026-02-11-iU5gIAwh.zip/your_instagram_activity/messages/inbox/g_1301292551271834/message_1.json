@@ -1,0 +1,48 @@
+{
+  "participants": [
+    {
+      "name": "g"
+    },
+    {
+      "name": "NICKTTTTTTTTTTTTTTTTTTTTTTTT"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "g",
+      "timestamp_ms": 1746802216449,
+      "content": "Thank you so much bro I appreciate that hella",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "g",
+      "timestamp_ms": 1746802205185,
+      "content": "Liked a message",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "NICKTTTTTTTTTTTTTTTTTTTTTTTT",
+      "timestamp_ms": 1746800064037,
+      "content": "The pants looks fucking amazing bro, great job",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "g"
+        }
+      ],
+      "share": {
+        "link": "https://www.instagram.com/stories/garrett.ferrara/3628464697562073255"
+      },
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    }
+  ],
+  "title": "g",
+  "is_still_participant": true,
+  "thread_path": "inbox/g_1301292551271834",
+  "magic_words": [
+    
+  ]
+}

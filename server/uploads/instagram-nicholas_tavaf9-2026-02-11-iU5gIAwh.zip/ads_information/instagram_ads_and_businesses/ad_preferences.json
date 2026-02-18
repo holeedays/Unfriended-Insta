@@ -1,0 +1,59 @@
+{
+  "media": [
+    
+  ],
+  "label_values": [
+    {
+      "label": "Removed categories",
+      "vec": [
+        
+      ]
+    },
+    {
+      "dict": [
+        {
+          "dict": [
+            {
+              "label": "Event",
+              "value": "Hide an Ad"
+            },
+            {
+              "label": "Ad title",
+              "value": "W1_FB/IG_Reach_Regional Sports_Los Angeles Rams_Video Link Ad_Two touchdowns for the Rams"
+            },
+            {
+              "label": "Creation time",
+              "timestamp_value": 1745300093
+            }
+          ],
+          "title": ""
+        },
+        {
+          "dict": [
+            {
+              "label": "Event",
+              "value": "Report an Ad"
+            },
+            {
+              "label": "Ad title",
+              "value": "rsd-\u00e4\u00bb\u0099\u00e5\u0091\u00bd\u00e5\u0086\u00b3-\u00e9\u0080\u0089\u00e6\u008b\u00a9\u00e4\u00bf\u00ae\u00e7\u0082\u00bc\u00e5\u00bd\u00a2\u00e6\u0080\u0081-20210524-en.jpg_105"
+            },
+            {
+              "label": "Creation time",
+              "timestamp_value": 1745300096
+            }
+          ],
+          "title": ""
+        }
+      ],
+      "title": "Hidden ads"
+    },
+    {
+      "dict": [
+        
+      ],
+      "title": "Hidden advertisers"
+    }
+  ],
+  "fbid": "18161251471024519"
+}
