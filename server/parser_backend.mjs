@@ -106,16 +106,17 @@ app.get(`/main`, async (req, res) => {
 // on login
 app.get(`/login`, async (req, res) => {
 
+    // if browser and page are alr assigned to a value (i.e. person goes back, remove the obj)
+    if (browser && page)
+        await terminateVirtualBrowserObjs();
+    
+
     await renderPage(`client/public/login.ejs`, {loginPrompt}, res);
     res.end();
 });
 
 // intermediate page, 
 app.get(`/login/loading`, async (req, res) => {
-
-    // if browser and page are alr assigned to a value (i.e. person goes back, remove the obj)
-    if (browser && page)
-        await terminateVirtualBrowserObjs();
 
     [browser, page] = await setupVirtualBrowserObjs();
 
@@ -423,7 +424,7 @@ async function setupVirtualBrowserObjs() {
     // open our browser obj
     const browser = await puppeteer.launch({
         enableExtensions: true,
-        headless: true,
+        headless: false,
         args: [
             `--window-size=1920,1080`,
             '--disable-background-timer-throttling',
@@ -687,5 +688,10 @@ async function checkFollowersTab(pageObj, mutualsList, mutual) {
 
 async function terminateVirtualBrowserObjs(browserObj) {
 
-    await browserObj.close();
+    try {
+        await browserObj.close();
+    }
+    catch {
+        console.log("Browser is already closed");
+    }
 }
