@@ -5,80 +5,118 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link href="/styles.css" rel="stylesheet" type="text/css">
+    <link href="/styles4.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-     <div>
-
-        <div class = "pageHeader"> 
+    <div>
+        <div class="pageHeader"> 
             Results 
         </div>
 
-        <div class = "subHeader"> 
+        <div class="subHeader"> 
             Here's all the data compiled.
         </div>
-
     </div>
-
 
     <div class="resultsListsContainer">
 
         <div class="resultsListCompiled">
-
             <div class="resultsListHeader">
                 Still Mutuals/Friends
             </div>
-
             <div class="divider"></div>
-
             <div>
                 <%= stillMutualsDisplay %>
             </div>
-
         </div>
 
         <div class="resultsListCompiled">
-
             <div class="resultsListHeader">
                 Mutuals Who Unfollowed You
             </div>
-
             <div class="divider"></div>
-
             <div>
                 <%= mutualsUnfollowedYouDisplay %>
             </div>
-
         </div>
 
         <div class="resultsListCompiled">
-
             <div class="resultsListHeader">
                 Mutuals Who You No Longer Follow / Were Removed 
             </div>
-
             <div class="divider"></div>
-
             <div>
                 <%= mutualsYouUnfollowedDisplay %>
             </div>
-
         </div>
 
         <div class="resultsListCompiled">
-
             <div class="resultsListHeader">
                 Private Accounts - Indeterminate
             </div>
-
             <div class="divider"></div>
-
             <div>
                 <%= indeterminateDisplay %>
             </div>
-
         </div>
 
     </div>
+
+    <script>
+        const backgrounds = {
+            "Graveyard1.png": [
+                {left: "5%", top: "70%"},
+                {left: "12%", top: "55%"},
+                {left: "18%", top: "75%"},
+                {left: "25%", top: "60%"},
+                {left: "32%", top: "50%"},
+                {left: "38%", top: "70%"},
+                {left: "45%", top: "55%"},
+                {left: "52%", top: "65%"},
+                {left: "60%", top: "50%"},
+                {left: "67%", top: "70%"},
+                {left: "73%", top: "55%"},
+                {left: "80%", top: "65%"},
+                {left: "86%", top: "50%"},
+                {left: "91%", top: "70%"},
+                {left: "96%", top: "55%"},
+            ],
+        }
+        
+        const bgKeys = Object.keys(backgrounds);
+        const chosenBg = bgKeys[Math.floor(Math.random() * bgKeys.length)];
+        document.body.style.backgroundImage = `url("/${chosenBg}")`;
+
+        const positions = backgrounds[chosenBg];
+
+        const rawNames = `<%- mutualsUnfollowedYouDisplay %>`;
+        const names = rawNames.split("\n")
+            .map(n => n.trim())
+            .filter(n => n.length > 0);
+
+        names.forEach((name, i) => {
+            if (i >= positions.length) return;
+
+            const stone = document.createElement("div");
+            stone.style.position = "absolute";
+            stone.style.left = positions[i].left;
+            stone.style.top = positions[i].top;
+            stone.style.textAlign = "center";
+            stone.style.transform = "translate(-50%, -50%)";
+
+            const label = document.createElement("p");
+            label.textContent = name.replace(/^\d+\.\s*/, "");
+            label.style.color = "white";
+            label.style.fontSize = "11px";
+            label.style.fontWeight = "bold";
+            label.style.fontFamily = "Georgia, serif";
+            label.style.margin = "0";
+            label.style.textShadow = "1px 1px 2px black";
+
+            stone.appendChild(label);
+            document.body.appendChild(stone);
+        });
+    </script>
+
 </body>
 </html>

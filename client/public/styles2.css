@@ -1,0 +1,146 @@
+@font-face {
+    font-family: "Lemon Milk";
+    src: url("public/fonts/lemon_milk/LEMONMILK-Light.otf");
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Lemon Milk";
+    src: url("public/fonts/lemon_milk/LEMONMILK-LightItalic.otf");
+    font-weight: lighter;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Lemon Milk";
+    src: url("public/fonts/lemon_milk/LEMONMILK-Regular.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Lemon Milk";
+    src: url("public/fonts/lemon_milk/LEMONMILK-RegularItalic.otf");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Lemon Milk";
+    src: url("public/fonts/lemon_milk/LEMONMILK-Bold.otf");
+    font-weight: bold;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: "Lemon Milk";
+    src: url("public/fonts/lemon_milk/LEMONMILK-BoldItalic.otf");
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+/* classes are listed below  */
+
+
+* {
+    font-family: "Lemon Milk", sans-serif;
+    font-weight: normal;
+}
+
+
+body {
+    background-image: url("LoginP.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative; 
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1728px) {
+    body {
+        background-size: 100% 100%;
+    }
+}
+
+.pageHeader{
+    visibility: hidden;
+}
+
+.userPrompt {
+    visibility: hidden;
+}
+
+
+/* .submissionBody {
+    position: absolute;
+    left: 40%;
+    top: 55%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+} */
+
+.input input[type="text"],
+.input input[type="password"] {
+    width: 420px;
+    height: 50px;
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Palatino, "Book Antiqua", serif;
+
+}
+
+.input input[type="submit"] {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-family: Palatino, "Book Antiqua", serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: #4d360f;
+}
+
+
+
+.username input[type="text"] {
+    margin-left: 20px;
+}
+.username {
+    position: absolute;
+    left: 13%;
+    top: 45.5%;
+    
+}
+
+
+.password input[type="password"] {
+    margin-left: 20px;
+}
+.password {
+    position: absolute;
+    left: 13.5%;
+    top: 55.6%;
+}
+
+.loginSubmit {
+    position: absolute;
+    left: 30.5%;
+    top: 66.4%;
+}
+
+.username label,
+.password label {
+    font-family: Palatino, "Book Antiqua", serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #4d360f;
+
+}

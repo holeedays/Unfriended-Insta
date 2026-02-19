@@ -40,18 +40,12 @@
     font-style: italic;
 }
 
-
-/* classes are listed below  */
-
-
 * {
     font-family: "Lemon Milk", sans-serif;
     font-weight: normal;
 }
-
-
 body {
-    background-image: url("Page1R.png");
+    background-image: url("Checking.png");
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
@@ -65,201 +59,71 @@ body {
     }
 }
 
-
-
-
-
-
-
-
-.pageHeader {
-    visibility: hidden;
-    
-    font-size: 75px;
-    font-weight: bold;
-}
-
-
-
-.subHeader {
-    visibility: hidden;
-
-    padding: 5px 0 0 0;
-
-    font-size: 25px;
-    font-weight: lighter;
-    font-style: italic;
-
-    color: rgb(109, 109, 109);
-}
-
-.instructions {
-    visibility: hidden;
-}
-
-.submissionBody {
-
-    padding: 40px 0 0 0;
-
-    display: flex;
-    flex-direction: column;
-}
-
-.submissionBody .input {
-
-    flex: 0 0 20%;
-
-    padding: 5px 0;
-
-    font-size: 15px;
-    font-weight: lighter;
-    font-style: normal;
-
-    color: black;
-}
-
-.upload {
-    position: absolute;
-    left: 63%;
-    top: 83%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-}
-
-.upload label {
-    display: none;
-}
-
-.fileInputWrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-.fileInputWrapper input[type="file"]::file-selector-button {
-    display: block;
-    margin-bottom: 5px;
-}
-
-
-.submit {
-    position: absolute;
-    left: 86%;
-    top: 84%;
-}
-
-.fileInputWrapper input[type="file"]::file-selector-button {
-    display: block;
-    margin-bottom: 5px;
-    border: none;
-    background: none;
-    color: #3c3c3c;
-    font-family: Georgia, serif;
-    cursor: pointer;
-    padding: 0;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.submit input[type="submit"] {
-    border: none;
-    background: none;
-    color: #4a4a4a;
-    font-family: Georgia, serif;
-    cursor: pointer;
-    padding: 0;
-    font-size: 20px;
-    font-weight: bold;
-
-}
-
-
 .description {
-
     font-size: 18px;
     font-weight: lighter;
     font-style: italic;
-
     white-space: pre-line;
 }
 
 .userPrompt {
-
     padding: 10px 0 0 0;
-
     font-size: 15px;
     font-weight: bold;
-    font-style: bold;
-
     color: red;
 }
 
 .resultsListsContainer {
-    
-    /* top right bottom left */
     padding: 100px 0 0 0;
-
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-
     justify-content: center;
     white-space: pre-line;
 }
 
 .resultsListsContainer .resultsListCompiling {
-
     flex: 0 0 32.33%;
     text-align: center;
-
     border: solid black;
     border-width: 5px 2.5px 5px 2.5px;
 }
 
 .resultsListsContainer .resultsListCompiled {
-
     flex: 0 0 23.5%;
     text-align: center;
-
     border: solid black;
     border-width: 5px 2.5px 5px 2.5px;
 }
 
 .resultsListCompiling .resultsListHeader {
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     font-size: 20px;
     font-weight: bold;
-
     align-content: center;
-
     border-color: solid black;
     border: 3px;
 }
 
 .resultsListCompiled .resultsListHeader {
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     align-content: center;
-
     font-size: 15px;
     font-weight: bold;
-
     border-color: solid black;
     border: 3px;
 }
 
 :is(.resultsListCompiling, .resultsListCompiled) .divider {
-
     border: solid black;
     border-width: 2.5px;
+}
+
+
+.resultsListsContainer {
+    display: none;
 }

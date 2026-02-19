@@ -12,7 +12,7 @@
 
     <div class="pageHeader">
         Welcome to <%= title %>
-    <div>
+    </div>
 
     <div class="subHeader">
         Please upload the file below. To get the information, please:
@@ -33,27 +33,30 @@
             <li> The export might take a bit (up to 30 mins). Wait for an email from instagram and now install that information. </li>
             <li> While waiting feel free to check this <a href="https://theuselessweb.com/"> link </a></li>
         </ol> 
-    <div>
+    </div>
 
     <div class="userPrompt">
         <%= fileUploadPrompt %>
-   
+    </div>     
    
     <div class="buttons">
 
     <form method="post" action="upload" enctype="multipart/form-data" class="submissionBody">
     
-        <div class="input">
-            <label for="Reference File Upload"> Upload File Here </label>
-            <input type="file" name="Reference File" id="Reference File Upload">
+        <div class="input upload">
+            <label for="Reference File Upload">Upload File Here</label>
+            <div class="fileInputWrapper">
+                <input type="file" name="Reference File" id="Reference File Upload">
+            </div>
         </div>
-
-        <div class="input">
-            <label for="Submission"> Confirm Submission Here </label>
+        
+        <div class="input submit">
+            <label for="Submission">  </label>
             <input type='submit' name="File Submission" id="Submission">
         </div>
 
     </form>
+    </div>
 
 </body>
 </html>
