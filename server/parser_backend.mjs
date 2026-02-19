@@ -43,6 +43,27 @@ var mutualsYouUnfollowedDisplay = ``;
 var indeterminateDisplay = ``;
 var stillMutualsDisplay = ``;
 
+
+
+mutualsUnfollowedYouDisplay = `
+ 1. james charles
+ 2. jeffree star
+ 3. zion williams
+ 4. brad pitt
+ 5. big ben
+ 6. lebron james
+ 7. taylor swift
+ 8. kanye west
+ 9. elon musk
+ 10. billie eilish
+ 11. drake bell
+ 12. addison rae
+ 13. charli damelio
+ 14. david dobrik
+ 15. emma chamberlain
+`;
+
+
 // variables to hold our browser object and page object when we use puppeteer
 var browser, page;
 
