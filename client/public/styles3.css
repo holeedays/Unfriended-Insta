@@ -127,3 +127,7 @@ body {
 .resultsListsContainer {
     display: none;
 }
+
+.subheader{
+    visibility: hidden;
+}

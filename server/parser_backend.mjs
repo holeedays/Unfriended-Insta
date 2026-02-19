@@ -424,7 +424,7 @@ async function setupVirtualBrowserObjs() {
     // open our browser obj
     const browser = await puppeteer.launch({
         enableExtensions: true,
-        headless: false,
+        headless: true,
         args: [
             `--window-size=1920,1080`,
             '--disable-background-timer-throttling',
