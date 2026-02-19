@@ -468,12 +468,11 @@ async function loginToInstagram(pageObj) {
     // wait until an input element is visible (i.e. page is loaded in)
     await pageObj.waitForSelector(`input`);
 
-    // just wait a bit here, sometimes the selector `[name=email]` can't be found lol
-    await new Promise(r => setTimeout(r, 1000));
+    await pageObj.waitForSelector(`[name=email`, {timeout: 0});
 
     // log in user credentials if they exist
     if (userPutInInfo) {
-        await pageObj.type('[name=email]', process.env.USER_USERNAME_INSTAGRAM);
+        await pageObj.type(`[name=email]`, process.env.USER_USERNAME_INSTAGRAM);
         await pageObj.type(`[name=pass]`, process.env.USER_PW_INSTAGRAM);
     }
     // else use or dummy credentials
@@ -509,11 +508,24 @@ async function monitorForAdditionalLoginParams(pageObj) {
 
     try {
         // find continue buttpn
-        await pageObj.waitForSelector(`[aria-label="Continue"][role="button"]`, {timeout: 3000});
+        await pageObj.click(`[aria-label="Continue"][role="button"]`, {timeout: 3000});
+
+        // just wait for the password field to come to existence
+        await pageObj.waitForSelector(`input[dir="ltr"][aria-invalid="false"][type="password"]`, {timeout: 0});
+
         // find the password entry part and fill it in
-        await pageObj.type(`form[id="aymh_password_entry_view"]`, process.env.USER_PW_INSTAGRAM || process.env.DUMMY_PW_UBIQ);
-        // submit
-        await pageObj.click(`div[class*=xh8yej3][role="button"]`);
+        await pageObj.type(`input[dir="ltr"][aria-invalid="false"][type="password"]`, process.env.USER_PW_INSTAGRAM || process.env.DUMMY_PW_UBIQ);
+
+        // wait a little bit so that we can click the login button
+        await new Promise(r => setTimeout(r, 3000));
+        // there's a total of 3 buttons using this selector, and the one without an aria-label tag is the login one
+        await pageObj.$$eval(
+            `div[class*=xh8yej3][role="button"]`,
+            element => element.map(button => {
+                if (button.getAttribute(`aria-label`) == null)
+                    button.click();
+            })
+        );
     }
     catch (error) {
 
@@ -574,7 +586,7 @@ async function checkFollowingTab(pageObj, mutualsList, mutual) {
                 });   
 
             // wait for the search bar to load
-            await pageObj.waitForSelector(`input[aria-label="Search input"]`, {timeout: 2000})
+            await pageObj.waitForSelector(`input[aria-label="Search input"]`, {timeout: 4000})
                 .catch((error) => {
                     console.error(`Couldn't find search bar: ${error.message}`);
                     throw error
@@ -590,7 +602,9 @@ async function checkFollowingTab(pageObj, mutualsList, mutual) {
 
             return error;
         }
-       
+        
+        // since it is confirmed that at least we can view the account, just wait for the search input this time
+        await pageObj.waitForSelector(`input[aria-label="Search input"]`, {timeout: 0});
         // search for our username
         await pageObj.type(`input[aria-label="Search input"]`, process.env.USER_USERNAME_INSTAGRAM || personalInfo.Username);
         // set a small delay to wait for results to pull up
@@ -648,7 +662,7 @@ async function checkFollowersTab(pageObj, mutualsList, mutual) {
             });   
 
         // wait for the search bar to load
-        await pageObj.waitForSelector(`input[aria-label="Search input"]`, {timeout: 2000})
+        await pageObj.waitForSelector(`input[aria-label="Search input"]`, {timeout: 4000})
             .catch((error) => {
                 console.error(`Couldn't find search bar: ${error.message}`);
                 throw error
@@ -664,6 +678,9 @@ async function checkFollowersTab(pageObj, mutualsList, mutual) {
 
         return error;
     }
+
+    // since it is confirmed that at least we can view the account, just wait for the search input this time
+    await pageObj.waitForSelector(`input[aria-label="Search input"]`, {timeout: 0});
     
     // search for our username
     await pageObj.type(`input[aria-label="Search input"]`, process.env.USER_USERNAME_INSTAGRAM || personalInfo.Username);
