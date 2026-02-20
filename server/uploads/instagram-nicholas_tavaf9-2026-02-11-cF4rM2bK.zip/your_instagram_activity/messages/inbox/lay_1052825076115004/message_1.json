@@ -1,0 +1,42 @@
+{
+  "participants": [
+    {
+      "name": "Lay"
+    },
+    {
+      "name": "NICKTTTTTTTTTTTTTTTTTTTTTTTT"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "NICKTTTTTTTTTTTTTTTTTTTTTTTT",
+      "timestamp_ms": 1748545665980,
+      "content": "We bouta hit a year in June",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "NICKTTTTTTTTTTTTTTTTTTTTTTTT",
+      "timestamp_ms": 1748545659079,
+      "content": "Thank you so much",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Lay",
+      "timestamp_ms": 1748528872182,
+      "content": "Ahhh nick shes gorg so happy for uuuu !!",
+      "share": {
+        "link": "https://www.instagram.com/stories/nicholas_tavaf9/3643244897524563908"
+      },
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    }
+  ],
+  "title": "Lay",
+  "is_still_participant": true,
+  "thread_path": "inbox/lay_1052825076115004",
+  "magic_words": [
+    
+  ]
+}

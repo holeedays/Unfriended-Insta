@@ -1,0 +1,72 @@
+{
+  "participants": [
+    {
+      "name": "Oscar Alvrami"
+    },
+    {
+      "name": "NICKTTTTTTTTTTTTTTTTTTTTTTTT"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "Oscar Alvrami",
+      "timestamp_ms": 1751175157209,
+      "content": "Liked a message",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Oscar Alvrami",
+      "timestamp_ms": 1751175156862,
+      "content": "Liked a message",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "NICKTTTTTTTTTTTTTTTTTTTTTTTT",
+      "timestamp_ms": 1751172626495,
+      "content": "Maybe another time tho",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Oscar Alvrami"
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "NICKTTTTTTTTTTTTTTTTTTTTTTTT",
+      "timestamp_ms": 1751172619551,
+      "content": "Yo I'm sorry I'm out in downtown La rn",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Oscar Alvrami"
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Oscar Alvrami",
+      "timestamp_ms": 1751168652334,
+      "content": "Me and my buddy plan on cruising to the pier if you\u00e2\u0080\u0099re up for joining  to get rollers",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "Oscar Alvrami",
+      "timestamp_ms": 1751168613357,
+      "content": "Yoooo not sure if you\u00e2\u0080\u0099re the guy in the white 911 I\u00e2\u0080\u0099m in that boxster",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    }
+  ],
+  "title": "Oscar Alvrami",
+  "is_still_participant": true,
+  "thread_path": "inbox/oscaralvrami_1740695333996228",
+  "magic_words": [
+    
+  ]
+}

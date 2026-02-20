@@ -1,0 +1,44 @@
+{
+  "participants": [
+    {
+      "name": "mel"
+    },
+    {
+      "name": "NICKTTTTTTTTTTTTTTTTTTTTTTTT"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "mel",
+      "timestamp_ms": 1770102547120,
+      "content": "Liked a message",
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "NICKTTTTTTTTTTTTTTTTTTTTTTTT",
+      "timestamp_ms": 1769995676641,
+      "content": "Omg crazy",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "mel"
+        }
+      ],
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    },
+    {
+      "sender_name": "mel",
+      "timestamp_ms": 1769969637465,
+      "is_geoblocked_for_viewer": false,
+      "is_unsent_image_by_messenger_kid_parent": false
+    }
+  ],
+  "title": "mel",
+  "is_still_participant": true,
+  "thread_path": "inbox/mel_558174635582414",
+  "magic_words": [
+    
+  ]
+}
